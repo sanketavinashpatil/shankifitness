@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHANKI FITNESS</title>
+</head>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+     <style>
+      /* css reset */
+      body{
+        font-family:monospace;
+        color: rgb(146 125 87);
+        margin: 0px;
+        padding: 0px;
+        background: url('img/pg2.jpeg');
+
+        
+      }
+      .left{
+        display: inline-block;
+        position: absolute;
+        left: 60px;
+        top: 18px;
+      }
+      .left img{
+        width: 100px;
+        filter: invert(100%);
+      }
+      .left div{
+        line-height: 19px;
+        text-align: center;
+        font-size: 13px;
+      }
+      .mid{
+          display: block;
+          width: 60%;
+          margin: 20px auto;
+          
+      }
+      .right{
+        position: absolute;
+        right: 34px;
+        top: 43px;
+        display: inline-block;
+        
+      }
+      .navbar{
+      display: inline-block;
+
+      }
+      .navbar li{
+      display: inline-block;
+      font-size: 25px;
+      padding: 20px 10px;
+      }
+      .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+       
+      }
+      .navbar li a:hover,.navbar li a.active{
+         text-decoration: underline; 
+         color: gray; 
+    }
+    .btn{
+        font-family: 'Patrick Hand', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 3px 4px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 10px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: rgb(177, 169, 169);
+    }
+    .container{
+
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+    }
+    .form-group input{
+        font-family: 'Patrick Hand', cursive;
+        text-align: center;
+        display: block;
+        width: 34;
+        padding: 6px;
+        border: 2px solid black;
+        margin: 11px auto;
+        border-radius: 8px;
+        font-size: 15px;
+    }
+    .container h1{
+        text-align: center;
+        color: #b9ffd9;
+        font-family:initial
+    }
+    .container button{
+        display:block;
+        width: 45%;
+        margin:20px auto;
+    }
+     </style>
+<body>
+    <header>
+        <div class="header">
+        <div class="left">
+             <img src="img/logo2.png" alt="">
+             <div>SHANKI FITNESS</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">FITNESS CENTER</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </div>
+        <div class="right">
+         <button class="btn">CALL US NOW</button>
+         <button class="btn">EMAIL US</button>   
+        </div>
+        
+        <div 
+            class="container">
+            <h1>
+                JOIN THE BEST GYM OF MUMBAI NOW
+            </h1>
+            <form action="noaction.php">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your name">
+                    <input type="text" name="" placeholder="Enter your age">
+                    <input type="text" name="" placeholder="Enter your Gender">
+                    <input type="text" name="" placeholder="Enter your locality">
+                    <input type="text" name="" placeholder="Enter your Email ID">
+                    <input type="text" name="" placeholder="Enter your contact no">
+
+                </div>
+                <button class="btn">submit</button>
+            </form>
+            
+        </div>
+        
+    </header>
+</body>
+</html>
